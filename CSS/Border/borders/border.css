@@ -1,0 +1,29 @@
+div{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 300px;
+    height: 100px;
+}
+#a{
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;   
+}
+#b{
+    border: 5px blue solid;  /*shorthand border syntax   */
+    margin-top: 5px;
+   
+   box-sizing: border-box;  /*width and height properties (and min/max properties) includes content, padding and border" */
+    
+    
+    
+}
+#c{
+    border: 5px palevioletred solid;
+    margin-top: 5px;
+    border-left-width: 8px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    
+}

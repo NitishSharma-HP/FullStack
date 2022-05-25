@@ -1,0 +1,9 @@
+h1{
+    border:3px red solid;
+    background-color: aqua;
+}
+h2{
+    border:3px rgb(183, 0, 255) solid;
+    background-color:chartreuse;
+   display: inline;     /* as h2 is block level element but i set it as inline so now it will work as inline..   */
+}

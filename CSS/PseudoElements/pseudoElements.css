@@ -1,0 +1,10 @@
+p::selection{   /* when i select the paragraph the color of selected para will change to orange*/
+    background-color: orange; 
+}
+p::first-letter{
+    font-weight: bolder;
+    color: navy;
+}
+p::first-line{
+    color: red;
+}

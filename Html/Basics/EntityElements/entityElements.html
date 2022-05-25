@@ -1,0 +1,20 @@
+
+<!-- Entity elements are elements which we can use to write a text or symbol which is not allowed  -->
+<!-- in html to write on document because it is reserved keyword or for any other reason. -->
+<!-- copyright symbol, trademark symbol, less than symbol all these are entity elements, they are -->
+<!--  reperesented using some combinations ..e.g. less than = [&lt;].... -->
+
+<html>
+    <title>
+        Entity element
+    </title>
+    <body>                 <!--in some cases ( < ) this may be taken as opening tag, so will result in error..-->
+        <p> 1 &lt; 6 </p>  <!-- will print 1 < 6-->
+        <p>&spades;</p>  <!-- will print a spade   //ussed entity name method-->
+        <P>&#9824</P>    <!-- will print a spade  //used entity number method-->
+        <p>&clubs;</p>
+        <p>&hearts;</p>
+        <p>&diams;;</p>
+        <p>&dagger;</p>
+    </body>
+</html>

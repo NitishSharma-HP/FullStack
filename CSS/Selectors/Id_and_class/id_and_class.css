@@ -1,0 +1,17 @@
+.quality{          /* classes can be same or different */
+   color:red;
+}
+#name1{               /*ids can not be same...id is unique  */
+    color:blue;
+}
+#name2{
+    color:green;
+}
+
+li{
+    color:orange;
+}
+
+#items li{            /* Descendent Selector....list items under id items will be colored magenta*/
+    color:magenta;
+}

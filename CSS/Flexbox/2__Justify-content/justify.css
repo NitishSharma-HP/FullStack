@@ -1,0 +1,33 @@
+/* works in the direction of main axis */
+
+div{
+    height: 120px;
+    width: 120px;
+}
+#container{
+    margin: 0 auto;
+    border: 2.5px solid black;
+    display: flex;
+    width: 90%;
+    height: 500px;
+    background-color: grey;
+    
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+
+
+    
+/* justify-content: flex-start; */   /*Pack flex items from the start*/
+/* justify-content: flex-end; */     /* Pack flex items from the end */
+/* justify-content: center; */       /* Pack items around the center */
+
+
+/*justify-content: space-between;  Distribute items evenly The first item is flush with the start the last is flush with the end */
+/*justify-content: space-around;   Distribute items evenly Items have a half-size space on either end */
+justify-content: space-evenly;  /* Distribute items evenly Items have equal space around them */
+/*justify-content: stretch;        Distribute items evenly Stretch 'auto'-sized items to fit the container */
+    
+   
+   
+
+}
