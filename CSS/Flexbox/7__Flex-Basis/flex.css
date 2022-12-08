@@ -1,0 +1,19 @@
+
+div{
+    height: 160px;
+    width: 160px;
+    flex-basis: 300px; /*even though i have set height width to 160px, if there is empty space left 
+                         it will make divs to take that space upto 300px(which a div can take) if after 300px 
+                         space is taken by all divs and still emplty space left that space will be left...*/
+}
+#container{
+    margin: 0 auto;
+    border: 2.5px solid black;
+    display: flex;
+    width: 90%;
+    height: 160px;
+    background-color: grey; 
+    flex-direction: row;
+    justify-content: center;
+}
+

@@ -1,0 +1,5 @@
+input[type="text"]{  /* jb text field mei kuch likhunga toh red color mei likhega ....sirf un field mei jinka */
+    color:red;     /* type " text " hoga...password ya koi or type wale pr lagu ni hoga..*/
+    padding: 10px;
+
+}

@@ -1,0 +1,9 @@
+.MySelf h2:nth-of-type(2n){  /*applies to every 2nd line  */
+    background-color:aqua;
+   color: blueviolet;
+}
+
+.MySelf h2:nth-of-type(5){  /*applies to the 5th line only  */
+    background-color:greenyellow ;
+   color: blueviolet;
+}
