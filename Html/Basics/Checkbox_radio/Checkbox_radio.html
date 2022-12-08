@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <title>checkbox</title>
+
+    <body>
+   <form action="/Somewhere">
+   <div>
+
+ <!--(file:///D:/Somewhere?gender=male).agar value use krunga toh wo send hogi name mei, (gender = male)..-->
+ <!-- (/Somewhere?gender=on)  otherwise, on ya off jayega name mei, (gender=on) -->   
+
+<input type="checkbox" id="male" name="gender" value="male" checked><!--checked will make "male" bydefault selected-->
+<label for="male">Male</label>
+</div>
+<div>
+    <input type="checkbox" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+</div>
+    <div>
+    <input type="checkbox" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+</div>
+<hr>
+
+<!------------radio buttons -------------------------------->
+
+<div>
+<input type="radio" id="male" name="gender" value="male" checked><!--checked will make "male" bydefault selected-->
+<label for="male">Male</label>
+</div>
+<div>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+</div>
+<div>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+</div>
+<hr>
+
+<!--------------------------select options--------------------->
+  
+ <div>
+    <label for="foods">Select any food...</label>
+     <select name="foods" id="foods">
+         
+         <option value="Kadhi">Kadhi Chawal</option>
+         <option value="rajmah">Rajmah Chawal</option>
+         <option value="Makhni">Dal Makhani</option>
+         <option value="Parantha">Dahi Parantha</option>
+     </select>
+ </div>
+
+   <button>submit</button>
+   </form>
+
+    </body>
+</html>
