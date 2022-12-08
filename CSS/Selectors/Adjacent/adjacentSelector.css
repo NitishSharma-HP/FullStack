@@ -1,7 +1,0 @@
-h2 + p{       /* will apply to all p's which comes immediately after the h2 tag... */
-    color:magenta;   /* Adjacent Selector*/
-}
-
-div > h2{       /* will apply to all the h2's which are direct children of div's...*/
-    color: red;   /*Direct Child */
-}

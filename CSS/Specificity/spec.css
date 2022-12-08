@@ -1,6 +1,0 @@
-h2{                        /* all h2 will be turquoise.   */
-    color:turquoise;   
-}
-#roll h2{                     /* As id is more specific then element so, h2 under id will be burlywood.  */
-    color:burlywood;
-}

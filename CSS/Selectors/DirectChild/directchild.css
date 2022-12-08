@@ -1,9 +1,0 @@
- body > p{          /* p is not direct child of body so it wont work*/
-    color: red;
-} 
-body > div{         /* div is direct child of body so it will work.  */
-    color:orange;
-}
-body > h2{
-    color:magenta; /* will work as h2 is direct child of body */
-}
